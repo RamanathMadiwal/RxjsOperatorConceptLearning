@@ -25,6 +25,9 @@ import {HttpClientModule} from "@angular/common/http";
 import { CourseDialogComponent } from './course-dialog/course-dialog.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatMomentDateModule} from "@angular/material-moment-adapter";
+import { CoursesComponent } from './courses/courses.component';
+import { CourseDialogWithoutstoreComponent } from './course-dialog-withoutstore/course-dialog-withoutstore.component';
+import { CourseCardListWithoutstoreComponent } from './course-card-list-withoutstore/course-card-list-withoutstore.component';
 
 @NgModule({
     declarations: [
@@ -33,7 +36,10 @@ import {MatMomentDateModule} from "@angular/material-moment-adapter";
         AboutComponent,
         CourseComponent,
         CoursesCardListComponent,
-        CourseDialogComponent
+        CourseDialogComponent,
+        CoursesComponent,
+        CourseDialogWithoutstoreComponent,
+        CourseCardListWithoutstoreComponent
     ],
     imports: [
         BrowserModule,

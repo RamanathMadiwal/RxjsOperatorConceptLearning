@@ -1,4 +1,6 @@
-
+## Run
+1.npm run server
+2.npm start
 ## The RxJs In Practice Course
 
 This repository contains the code of the [RxJs In Practice Course](https://angular-university.io/course/rxjs-course).
